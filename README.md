@@ -1,4 +1,3 @@
-# exchange_report
 # Required -
 
 NodeJS
@@ -6,6 +5,7 @@ NodeJS
 MongoDb
 
 # Steps
+
 1). Install node modules using npm i for both frontend and backend.
 
 2). Do npm start in backend folder, it will run server for your api.
