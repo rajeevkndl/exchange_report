@@ -1,0 +1,101 @@
+.table-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for the search container */
+.search-container {
+  margin-bottom: 20px; /* Add spacing below the search bar */
+}
+
+/* Styling for the search input */
+.search-input {
+  width: 100%;
+  padding: 5px; /* Smaller padding */
+  font-size: 12px; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px; /* Space between input and table */
+}
+
+
+
+
+/* Styling for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styling for table headers and cells */
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling for the pagination container */
+.pagination-container {
+  text-align: center;
+  margin-top: 20px; /* Add spacing above the pagination */
+}
+
+/* Styling for the pagination links */
+.pagination li {
+  display: inline;
+  margin-right: 5px; /* Add spacing between pagination links */
+}
+
+/* Pagination styles */
+.pagination-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination .active a {
+  background-color: #333;
+  color: #fff;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+}
+
+.icon {
+  width: 24px; 
+  height: 24px; 
+  margin-right: 8px; /* Add spacing between icon and text */
+}
+
