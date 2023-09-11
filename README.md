@@ -14,4 +14,4 @@ MongoDb
 
 4). Do npm start in frontend folder. it will run your react app.
 
-Now you can see data of exchange in your app, your can search for a particular exchange in the search box, to update the data just redo step 3 and it will update data in your database.
+Now you can see data of exchange in your app, you can search for a particular name in the search box, to update the data just redo step 3 and it will update data in your database.
